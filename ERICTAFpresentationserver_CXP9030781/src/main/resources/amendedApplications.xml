@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<apps>
+  <group id="Configuration" name="Configuration">
+      <app>network_explorer</app>
+      <app>command_line_interface</app>
+  </group>
+  <group id="Diagnostics_and_Troubleshooting" name="Diagnostics and Troubleshooting">
+      <app>OSS_Monitoring</app>
+      <app>Log_Viewer</app>
+  </group>
+  <group id="Performance" name="Performance">
+    <app>Ericsson_Network_IQ_Events</app>
+    <app>Ericsson_Network_IQ_Stats_Web_Portal</app>
+    <app>Ericsson_Network_IQ_Stats_Admin_UI</app>
+    <app>Ericsson_Network_IQ_Stats_Business_Objects_CMC</app>
+    <app>pmic</app>
+  </group>
+  <web id="OSS_Monitoring" name="OSS Monitoring" host="ossMonitoringHost" port="ossMonitoring" path="/" />
+  <web id="Ericsson_Network_IQ_Events" name="Ericsson Network IQ Events" host="eniqEventsHost" port="eniqEventsPort" path="/EniqEventsUI" protocol="secure"/>
+  <web id="Ericsson_Network_IQ_Stats_Web_Portal" name="Ericsson Network IQ STATS : Web Portal" host="eniqStatsHost" port="appServer" path="/InfoViewApp/logon.jsp" protocol="secure" />
+  <web id="Ericsson_Network_IQ_Stats_Admin_UI" name="Ericsson Network IQ STATS : Admin UI" host="eniqManagement" protocol="secure" port="appServer" path="/adminui/servlet/EniqMain" />
+  <web id="Ericsson_Network_IQ_Stats_Business_Objects_CMC" name="Ericsson Network IQ STATS : Business Objects CMC" host="eniqStatsHost" protocol="secure" port="appServer" path="/CmcApp/logon.faces" />
+  <web id="Log_Viewer" name="The Log Viewer" path="/#logviewer" />
+  <web id="pmic" name="PM Initiation and Collection" path="/#pmiclistsubscription" />
+  <web id="command_line_interface" name="Command Line Interface" path="/#cliapp" />
+  <web id="network_explorer" name="Network Explorer" path="/#networkexplorer" />
+</apps>

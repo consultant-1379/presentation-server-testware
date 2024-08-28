@@ -1,0 +1,48 @@
+2014/02/12 16:33:10 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_IE 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: Loading user properties from: C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\apache-jmeter-2.9\bin\user.properties 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: Loading system properties from: C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\apache-jmeter-2.9\bin\system.properties 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: Copyright (c) 1998-2013 The Apache Software Foundation 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: Version 2.9 r1437961 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: java.version=1.7.0_51 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: os.name=Windows 7 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: os.arch=amd64 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: os.version=6.1 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: Default Locale=English (Ireland) 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: JMeter  Locale=English (Ireland) 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: JMeterHome=C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\apache-jmeter-2.9 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: user.dir  =C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\apache-jmeter-2.9\bin 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: PWD       =C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\apache-jmeter-2.9\bin 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: IP: 169.254.235.93 Name: E7B499BAED30A9 FullName: E7B499BAED30A9.ericsson.se 
+2014/02/12 16:33:10 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2014/02/12 16:33:11 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2014/02/12 16:33:11 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2014/02/12 16:33:11 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
+2014/02/12 16:33:13 INFO  - jmeter.gui.util.MenuFactory: Skipping kg.apc.jmeter.config.VariablesFromCSVFile 
+2014/02/12 16:33:15 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2014/02/12 16:33:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2014/02/12 16:33:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2014/02/12 16:33:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2014/02/12 16:33:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2014/02/12 16:33:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2014/02/12 16:33:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2014/02/12 16:33:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
+2014/02/12 16:33:16 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
+2014/02/12 16:33:17 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2014/02/12 16:33:17 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2014/02/12 16:33:17 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2014/02/12 16:33:17 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2014/02/12 16:33:27 INFO  - jmeter.services.FileServer: Default base='C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\apache-jmeter-2.9\bin' 
+2014/02/12 16:33:27 INFO  - jmeter.gui.action.Load: Loading file: C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\load\NEtypes.jmx 
+2014/02/12 16:33:27 INFO  - jmeter.services.FileServer: Set new base='C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\load' 
+2014/02/12 16:33:27 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/02/12 16:33:27 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/02/12 16:33:27 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1427507 
+2014/02/12 16:33:27 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.4 
+2014/02/12 16:33:27 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2014/02/12 16:33:28 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2014/02/12 16:33:28 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2014/02/12 16:33:28 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2014/02/12 16:33:29 INFO  - jmeter.services.FileServer: Set new base='C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\load' 
+2014/02/12 16:36:07 INFO  - jmeter.services.FileServer: Set new base='C:\dev\Network Explorer perfomance-tests\jmeter-ui-load\jmeter-ui-load\load' 

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<apps>
+  <app id="OSS_Monitoring" name="OSS Monitoring">
+    <acronym>OSS-MT</acronym>
+    <short_info>Use to monitor OSS Server hardware and OSS Operating system via agents installed on the servers which transmit back information to display on the portal.</short_info>
+  </app>
+  <app id="Ericsson_Network_IQ_Events" name="Ericsson Network IQ Events">
+    <acronym>ENIQ Events</acronym>
+    <short_info>Use to mediate event data from domain management systems and network equipment to produce subscriber oriented views of service performance to support efficient network, subscriber and terminal management.</short_info>
+  </app>
+  <app id="Ericsson_Network_IQ_Stats_Web_Portal" name="Ericsson Network IQ STATS : Web Portal">
+    <acronym>ENIQ Stats</acronym>
+    <short_info>Use to collect network data from various Network Elements, store and process the information to generate topology and performance reports.</short_info>
+  </app>
+  <app id="Ericsson_Network_IQ_Stats_Admin_UI" name="Ericsson Network IQ STATS : Admin UI">
+    <acronym>ENIQ Stats</acronym>
+    <short_info>Use to access a Web Interface for various administrative tasks including System Status monitoring, Data flow, Loading Status Monitoring and Re-aggregating data.</short_info>
+  </app>
+  <app id="Ericsson_Network_IQ_Stats_Business_Objects_CMC" name="Ericsson Network IQ STATS : Business Objects CMC">
+    <acronym>ENIQ Stats BO CMC</acronym>
+    <short_info> Use to administer Business Objects, facilitating user and content management and license key administration.</short_info>
+  </app>
+  <app id="Log_Viewer" name="Log Viewer">
+    <short_info>Use to query and view details of the platform syslogs quickly, provides a full text search and complex filtering of logs based on syslog data.</short_info>
+  </app>
+  <app id="pmic" name="PM Initiation and Collection">
+    <acronym>PMIC</acronym>
+    <short_info>PM Initiation and Collection provides functionality to allow a user to manage PM measurements in the LTE RAN, allowing a user create, schedule, start, stop, modify and delete subscriptions.</short_info>
+  </app>
+  <app id="command_line_interface" name="Command Line Interface">
+    <acronym>CLI</acronym>
+    <short_info>Command Line Interface enables users to perform essential viewing and updating of OSS and network data.</short_info>
+  </app>
+  <app id="network_explorer" name="Network Explorer">
+    <short_info>Use Network Explorer to search and retrieve all Network Configuration Data. The returned data can be grouped into Collections or Saved searches to facilitate sharing and reuse.</short_info>
+  </app>
+</apps>

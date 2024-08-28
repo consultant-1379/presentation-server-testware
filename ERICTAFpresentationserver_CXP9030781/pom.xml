@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.ericsson.nms.pres</groupId>
+        <artifactId>presentation-server-testware</artifactId>
+        <version>1.18.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.ericsson.nms.pres.testware</groupId>
+    <artifactId>ERICTAFpresentationserver_CXP9030781</artifactId>
+
+    <properties>
+        <production_version>3.11.4</production_version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ericsson.cifwk</groupId>
+            <artifactId>all-taf-sdk</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.nms</groupId>
+            <artifactId>HostConfigurator</artifactId>
+            <version>${taf-tor-operators_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>apache-log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.14</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.nms.security</groupId>
+            <artifactId>OpenIDM-impl</artifactId>
+            <version>${openIDM_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.clientcommon.login.operator</groupId>
+            <artifactId>LoginOperator-impl</artifactId>
+            <version>${taf-tor-operators_version}</version>
+        </dependency>
+
+        <!-- SUT Dependencies -->
+        <dependency>
+            <groupId>${project.parent.groupId}</groupId>
+            <artifactId>presentation-server-api</artifactId>
+            <version>${production_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.parent.groupId}</groupId>
+            <artifactId>presentation-server-jar</artifactId>
+            <version>${production_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.itpf.sdk</groupId>
+            <artifactId>sdk-resources-api</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.itpf.sdk</groupId>
+            <artifactId>sdk-resources-non-cdi</artifactId>
+            <version>3.27.2</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
